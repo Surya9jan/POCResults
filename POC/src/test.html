@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h4>JavaScript Array Sort</h4>
+
+<button onclick="myFunction()">Try it</button>
+
+<p id="demo"></p>
+
+<script>
+var points = [-1,-3];
+
+function myFunction() {
+ const set = new Set(points);
+  let i = 1;
+  while (set.has(i)) {
+    i++;
+  }
+  document.getElementById("demo").innerHTML = i;
+}
+</script>
+</body>
+</html>
